@@ -158,7 +158,7 @@ export default function Home() {
               Customise
             </Text>
             <Text fontSize="1em" textColor="gray.400">
-              Every chart comes with it's own set of customisations. Customise
+              Every chart comes with it&apos;s own set of customisations. Customise
               as much as you like.
             </Text>
           </Box>
