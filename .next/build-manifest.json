@@ -30,10 +30,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/heatMap": [
+    "/pieChart": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/heatMap.js"
+      "static/chunks/pages/pieChart.js"
+    ],
+    "/scatterPlot": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/scatterPlot.js"
     ]
   },
   "ampFirstPages": []

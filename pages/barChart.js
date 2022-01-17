@@ -128,6 +128,7 @@ const BarChart = () => {
           <Select
             width="6em"
             color="grey"
+            placeholder="Format"
             variant="outline"
             onChange={(e) => {
               switch (e.target.value) {

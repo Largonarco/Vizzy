@@ -3,7 +3,6 @@ import {
   Box,
   Center,
   HStack,
-  VStack,
   Accordion,
   AccordionItem,
   AccordionButton,
@@ -274,7 +273,6 @@ const BumpChartControls = ({
             onChange={(e) => setAttribute("legendY", e)}
           />
           <FormLabel as="label">Grid </FormLabel>
-
           <HStack gap="1em" mb="1em">
             <Checkbox
               colorScheme="green"

@@ -161,6 +161,7 @@ const LineChart = () => {
           <Select
             width="6em"
             color="gray.500"
+            placeholder="Format"
             variant="outline"
             onChange={(e) => {
               switch (e.target.value) {

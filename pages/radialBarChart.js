@@ -164,6 +164,7 @@ const RadialBarChart = () => {
           </Text>
           <Select
             width="6em"
+            placeholder="Format"
             color="gray.500"
             variant="outline"
             onChange={(e) => {

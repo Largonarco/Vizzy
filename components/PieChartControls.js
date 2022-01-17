@@ -136,6 +136,7 @@ const BarChartControls = ({
           <FormLabel as="label">Color scheme</FormLabel>
           <Select
             color="grey"
+            size="sm"
             mb="1em"
             onChange={(e) => setAttribute("colorScheme", e)}
           >

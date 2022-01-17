@@ -1,5 +1,4 @@
 import { useRef } from "react";
-import NextLink from "next/link";
 import Link from "next/link";
 import { useDisclosure } from "@chakra-ui/react";
 
@@ -54,9 +53,7 @@ const Sidebar = () => {
                   backgroundColor: "hsla(38, 93%, 77%, 0.2)",
                 }}
               >
-                <NextLink href="/lineChart" passHref>
-                  <Link>Line Chart</Link>
-                </NextLink>
+                <Link href="/lineChart">Line Chart</Link>
               </Button>
               <Button
                 colorScheme="orange"
@@ -68,9 +65,7 @@ const Sidebar = () => {
                   backgroundColor: "hsla(38, 93%, 77%, 0.2)",
                 }}
               >
-                <NextLink href="/barChart" passHref>
-                  <Link href="/barChart">Bar Chart</Link>
-                </NextLink>
+                <Link href="/barChart">Bar Chart</Link>
               </Button>
               <Button
                 colorScheme="orange"
@@ -82,9 +77,7 @@ const Sidebar = () => {
                   backgroundColor: "hsla(38, 93%, 77%, 0.2)",
                 }}
               >
-                <NextLink href="/pieChart" passHref>
-                  <Link>Pie Chart</Link>
-                </NextLink>
+                <Link href="/pieChart">Pie Chart</Link>
               </Button>
               <Button
                 colorScheme="orange"
@@ -96,9 +89,7 @@ const Sidebar = () => {
                   backgroundColor: "hsla(38, 93%, 77%, 0.2)",
                 }}
               >
-                <NextLink href="/heatMap" passHref>
-                  <Link>Heat Map</Link>
-                </NextLink>
+                <Link href="/heatMap">Heat Map</Link>
               </Button>
               <Button
                 colorScheme="orange"
@@ -110,9 +101,7 @@ const Sidebar = () => {
                   backgroundColor: "hsla(38, 93%, 77%, 0.2)",
                 }}
               >
-                <NextLink href="/bumpChart" passHref>
-                  <Link>Bump Chart</Link>
-                </NextLink>
+                <Link href="/bumpChart">Bump Chart</Link>
               </Button>
               <Button
                 colorScheme="orange"
@@ -124,9 +113,7 @@ const Sidebar = () => {
                   backgroundColor: "hsla(38, 93%, 77%, 0.2)",
                 }}
               >
-                <NextLink href="/scatterPlot" passHref>
-                  <Link>Scatter plot</Link>
-                </NextLink>
+                <Link href="/scatterPlot">Scatter plot</Link>
               </Button>
               <Button
                 colorScheme="orange"
@@ -138,9 +125,7 @@ const Sidebar = () => {
                   backgroundColor: "hsla(38, 93%, 77%, 0.2)",
                 }}
               >
-                <NextLink href="/radialBarChart" passHref>
-                  <Link>Radial Bar Chart</Link>
-                </NextLink>
+                <Link href="/radialBarChart">Radial Bar Chart</Link>
               </Button>
             </VStack>
           </DrawerBody>
