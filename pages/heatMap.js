@@ -258,7 +258,7 @@ const HeatMap = () => {
             <ResponsiveHeatMap
               data={finalData}
               theme={{ textColor: "#ffffff" }}
-              margin={{ top: 60, right: 100, bottom: 60, left: 100 }}
+              margin={{ top: 100, right: 100, bottom: 100, left: 100 }}
               xOuterPadding={attributes.xOuterPadding}
               xInnerPadding={attributes.xInnerPadding}
               yOuterPadding={attributes.yOuterPadding}

@@ -12,7 +12,7 @@ const LineChart = () => {
   const [fieldData, setFieldData] = useState([]);
   const [attributes, setAttributes] = useState({
     curveStyle: "cardinal",
-    colorScheme: "set1",
+    colorScheme: "nivo",
     enableArea: false,
     enablePoints: false,
     enableGridX: true,
@@ -190,7 +190,7 @@ const LineChart = () => {
             <ResponsiveLine
               data={finalData}
               theme={{ textColor: "#ffffff" }}
-              margin={{ top: 50, right: 100, bottom: 50, left: 100 }}
+              margin={{ top: 100, right: 100, bottom: 100, left: 100 }}
               xScale={{ type: "point" }}
               yScale={{
                 type: "linear",

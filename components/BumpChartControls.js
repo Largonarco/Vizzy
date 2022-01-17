@@ -197,11 +197,11 @@ const BumpChartControls = ({
             mb="1em"
             onChange={(e) => setAttribute("colorScheme", e)}
           >
-           <option value="set1">Set</option>
+            <option value="spectral">Spectral</option>
             <option value="nivo">Basic</option>
+            <option value="set1">Set</option>
             <option value="accent">Accent</option>
             <option value="dark2">Dark</option>
-            <option value="spectral">Spectral</option>
             <option value="pastel1">Pastel</option>
             <option value="pastel1">More pastel</option>
             <option value="blue_green">Blue &#8594; Green</option>

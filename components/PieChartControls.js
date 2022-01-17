@@ -140,8 +140,8 @@ const BarChartControls = ({
             mb="1em"
             onChange={(e) => setAttribute("colorScheme", e)}
           >
-           <option value="set1">Set</option>
             <option value="nivo">Basic</option>
+            <option value="set1">Set</option>
             <option value="accent">Accent</option>
             <option value="dark2">Dark</option>
             <option value="spectral">Spectral</option>

@@ -12,7 +12,7 @@ const LineChart = () => {
   const [fieldData, setFieldData] = useState([]);
   const [attributes, setAttributes] = useState({
     curveStyle: "cardinal",
-    colorScheme: "set1",
+    colorScheme: "nivo",
     enableGridX: true,
     enableGridY: true,
     axisBottom: true,
@@ -182,7 +182,7 @@ const LineChart = () => {
             <ResponsiveScatterPlot
               data={finalData}
               theme={{ textColor: "#ffffff" }}
-              margin={{ top: 70, right: 100, bottom: 70, left: 100 }}
+              margin={{ top: 100, right: 100, bottom: 100, left: 100 }}
               xScale={{ type: "linear", min: 0, max: "auto" }}
               enableGridX={attributes.enableGridX}
               xFormat=">-.2f"

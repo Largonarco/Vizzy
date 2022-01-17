@@ -11,7 +11,7 @@ const BumpChart = () => {
   const [fieldNames, setFieldNames] = useState([""]);
   const [fieldData, setFieldData] = useState([]);
   const [attributes, setAttributes] = useState({
-    colorScheme: "set1",
+    colorScheme: "spectral",
     lineWidth: 4,
     pointSize: 6,
     pointBorder: 2,
@@ -246,7 +246,7 @@ const BumpChart = () => {
                 legendPosition: "middle",
                 legendOffset: -40,
               }}
-              margin={{ top: 50, right: 100, bottom: 50, left: 100 }}
+              margin={{ top: 100, right: 100, bottom: 100, left: 100 }}
               enableGridX={attributes.enableGridX}
               enableGridY={attributes.enableGridY}
               axisRight={null}

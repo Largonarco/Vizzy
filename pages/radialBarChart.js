@@ -11,7 +11,7 @@ const RadialBarChart = () => {
   const [fieldNames, setFieldNames] = useState([""]);
   const [fieldData, setFieldData] = useState([]);
   const [attributes, setAttributes] = useState({
-    colorScheme: "set1",
+    colorScheme: "nivo",
     cornerRadius: 2,
     padAngle: 0,
     enableRadialGrid: true,
@@ -201,7 +201,7 @@ const RadialBarChart = () => {
               cornerRadius={attributes.cornerRadius}
               enableRadialGrid={attributes.enableRadialGrid}
               enableCircularGrid={attributes.enableCircularGrid}
-              margin={{ top: 40, right: 120, bottom: 40, left: 40 }}
+              margin={{ top: 80, right: 40, bottom: 80, left: 40 }}
               radialAxisStart={{ tickSize: 5, tickPadding: 5, tickRotation: 0 }}
               circularAxisOuter={{
                 tickSize: 5,

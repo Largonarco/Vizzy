@@ -14,7 +14,7 @@ const BarChart = () => {
   const [indexingKey, setIndexingKey] = useState("country");
   const [tableInputs, setTableInputs] = useState([]);
   const [attributes, setAttributes] = useState({
-    colorScheme: "set1",
+    colorScheme: "nivo",
     orientation: "vertical",
     grouping: "stacked",
     barPadding: 0.3,
@@ -161,7 +161,7 @@ const BarChart = () => {
               indexBy={indexingKey}
               groupMode={attributes.grouping}
               layout={attributes.orientation}
-              margin={{ top: 50, right: 100, bottom: 50, left: 100 }}
+              margin={{ top: 100, right: 100, bottom: 100, left: 100 }}
               padding={attributes.barPadding}
               valueScale={{ type: "linear" }}
               indexScale={{ type: "band", round: true }}

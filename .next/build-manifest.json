@@ -15,11 +15,6 @@
     "static/development/_middlewareManifest.js"
   ],
   "pages": {
-    "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
-    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -30,15 +25,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/barChart": [
+    "/bumpChart": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/barChart.js"
+      "static/chunks/pages/bumpChart.js"
     ],
-    "/radialBarChart": [
+    "/heatMap": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/radialBarChart.js"
+      "static/chunks/pages/heatMap.js"
+    ],
+    "/pieChart": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/pieChart.js"
     ]
   },
   "ampFirstPages": []
