@@ -30,15 +30,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/pieChart": [
+    "/barChart": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/pieChart.js"
+      "static/chunks/pages/barChart.js"
     ],
-    "/scatterPlot": [
+    "/radialBarChart": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/scatterPlot.js"
+      "static/chunks/pages/radialBarChart.js"
     ]
   },
   "ampFirstPages": []

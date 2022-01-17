@@ -11,7 +11,7 @@ const BumpChart = () => {
   const [fieldNames, setFieldNames] = useState([""]);
   const [fieldData, setFieldData] = useState([]);
   const [attributes, setAttributes] = useState({
-    colorScheme: "spectral",
+    colorScheme: "set1",
     lineWidth: 4,
     pointSize: 6,
     pointBorder: 2,
@@ -189,15 +189,11 @@ const BumpChart = () => {
                 case "png":
                   generatePNG();
                   break;
-                case "pdf":
-                  generateSVG();
-                  break;
               }
             }}
           >
             <option value="svg">SVG</option>
             <option value="png">PNG</option>
-            <option value="pdf">PDF</option>
           </Select>
         </HStack>
       </HStack>

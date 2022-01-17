@@ -14,7 +14,7 @@ const BarChart = () => {
   const [indexingKey, setIndexingKey] = useState("country");
   const [tableInputs, setTableInputs] = useState([]);
   const [attributes, setAttributes] = useState({
-    colorScheme: "nivo",
+    colorScheme: "set1",
     orientation: "vertical",
     grouping: "stacked",
     barPadding: 0.3,
@@ -138,15 +138,11 @@ const BarChart = () => {
                 case "png":
                   generatePNG();
                   break;
-                case "pdf":
-                  generateSVG();
-                  break;
               }
             }}
           >
             <option value="svg">SVG</option>
             <option value="png">PNG</option>
-            <option value="pdf">PDF</option>
           </Select>
         </HStack>
       </HStack>

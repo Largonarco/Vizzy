@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 import { Flex, Box, Center, Heading, Text } from "@chakra-ui/react";
 import { ArrowRightIcon, ArrowDownIcon } from "@chakra-ui/icons";
 
@@ -13,7 +11,7 @@ export default function Home() {
           marginTop="2em"
           paddingX="0.5em"
           textAlign="center"
-          size="3xl"
+          size="4xl"
           bgGradient="linear(to-l, #fe5858, #ee9617)"
           bgClip="text"
         >
@@ -35,7 +33,7 @@ export default function Home() {
           marginX="auto"
           marginTop="4em"
           marginBottom="1em"
-          size="xl"
+          size="2xl"
           textColor="white"
         >
           Features
@@ -50,7 +48,7 @@ export default function Home() {
             padding="1em"
             flexDirection="column"
           >
-            <Text fontSize="2em" fontWeight={500} textColor="white">
+            <Text fontSize="1.75em" fontWeight={500} textColor="white">
               Free of cost
             </Text>
             <Text fontSize="1em" textColor="gray.400">
@@ -66,7 +64,7 @@ export default function Home() {
             padding="1em"
             flexDirection="column"
           >
-            <Text fontSize="2em" fontWeight={500} textColor="white">
+            <Text fontSize="1.75em" fontWeight={500} textColor="white">
               Variety
             </Text>
             <Text fontSize="1em" textColor="gray.400">
@@ -84,7 +82,7 @@ export default function Home() {
             padding="1em"
             flexDirection="column"
           >
-            <Text fontSize="2em" fontWeight={500} textColor="white">
+            <Text fontSize="1.75em" fontWeight={500} textColor="white">
               Quality
             </Text>
             <Text fontSize="1em" textColor="gray.400">
@@ -101,7 +99,7 @@ export default function Home() {
             padding="1em"
             flexDirection="column"
           >
-            <Text fontSize="2em" fontWeight={500} textColor="white">
+            <Text fontSize="1.75em" fontWeight={500} textColor="white">
               Comfort
             </Text>
             <Text fontSize="1em" textColor="gray.400">
@@ -116,7 +114,7 @@ export default function Home() {
           marginX="auto"
           marginTop="4em"
           marginBottom="1em"
-          size="xl"
+          size="2xl"
           textColor="white"
         >
           How to use
@@ -131,7 +129,7 @@ export default function Home() {
             padding="1em"
             flexDirection="column"
           >
-            <Text fontSize="2em" fontWeight={500} textColor="white">
+            <Text fontSize="1.75em" fontWeight={500} textColor="white">
               Ingest data
             </Text>
             <Text fontSize="1em" textColor="gray.400">
@@ -154,12 +152,12 @@ export default function Home() {
             padding="1em"
             flexDirection="column"
           >
-            <Text fontSize="2em" fontWeight={500} textColor="white">
+            <Text fontSize="1.75em" fontWeight={500} textColor="white">
               Customise
             </Text>
             <Text fontSize="1em" textColor="gray.400">
-              Every chart comes with it &apos; s own set of customisations. Customise
-              as much as you like.
+              Every chart comes with it &apos; s own set of customisations.
+              Customise as much as you like.
             </Text>
           </Box>
           <Center display={{ base: "none", md: "flex" }}>
@@ -177,7 +175,7 @@ export default function Home() {
             padding="1em"
             flexDirection="column"
           >
-            <Text fontSize="2em" fontWeight={500} textColor="white">
+            <Text fontSize="1.75em" fontWeight={500} textColor="white">
               Export
             </Text>
             <Text fontSize="1em" textColor="gray.400">
@@ -192,7 +190,7 @@ export default function Home() {
           marginX="auto"
           marginTop="4em"
           marginBottom="1em"
-          size="xl"
+          size="2xl"
           textColor="white"
         >
           Chart types
@@ -207,7 +205,7 @@ export default function Home() {
             padding="1em"
             flexDirection="column"
           >
-            <Text fontSize="2em" fontWeight={500} textColor="white">
+            <Text fontSize="1.75em" fontWeight={500} textColor="white">
               Line Chart
             </Text>
             <Text fontSize="1em" textColor="gray.400">
@@ -224,7 +222,7 @@ export default function Home() {
             padding="1em"
             flexDirection="column"
           >
-            <Text fontSize="2em" fontWeight={500} textColor="white">
+            <Text fontSize="1.75em" fontWeight={500} textColor="white">
               Bar Chart
             </Text>
             <Text fontSize="1em" textColor="gray.400">
@@ -241,7 +239,7 @@ export default function Home() {
             padding="1em"
             flexDirection="column"
           >
-            <Text fontSize="2em" fontWeight={500} textColor="white">
+            <Text fontSize="1.75em" fontWeight={500} textColor="white">
               Pie Chart
             </Text>
             <Text fontSize="1em" textColor="gray.400">
@@ -260,7 +258,7 @@ export default function Home() {
             padding="1em"
             flexDirection="column"
           >
-            <Text fontSize="2em" fontWeight={500} textColor="white">
+            <Text fontSize="1.75em" fontWeight={500} textColor="white">
               Heat Map
             </Text>
             <Text fontSize="1em" textColor="gray.400">
@@ -277,7 +275,7 @@ export default function Home() {
             padding="1em"
             flexDirection="column"
           >
-            <Text fontSize="2em" fontWeight={500} textColor="white">
+            <Text fontSize="1.75em" fontWeight={500} textColor="white">
               Radial Bar Chart
             </Text>
             <Text fontSize="1em" textColor="gray.400">
@@ -294,7 +292,7 @@ export default function Home() {
             padding="1em"
             flexDirection="column"
           >
-            <Text fontSize="2em" fontWeight={500} textColor="white">
+            <Text fontSize="1.75em" fontWeight={500} textColor="white">
               Scatter Plot
             </Text>
             <Text fontSize="1em" textColor="gray.400">

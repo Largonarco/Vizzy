@@ -10,7 +10,7 @@ const PieChart = () => {
   const chartRef = useRef(null);
   const [tableInputs, setTableInputs] = useState([]);
   const [attributes, setAttributes] = useState({
-    colorScheme: "nivo",
+    colorScheme: "set1",
     innerRadius: 0.5,
     padAngle: 0,
     arcLabels: true,
@@ -124,15 +124,11 @@ const PieChart = () => {
                 case "png":
                   generatePNG();
                   break;
-                case "pdf":
-                  generateSVG();
-                  break;
               }
             }}
           >
             <option value="svg">SVG</option>
             <option value="png">PNG</option>
-            <option value="pdf">PDF</option>
           </Select>
         </HStack>
       </HStack>

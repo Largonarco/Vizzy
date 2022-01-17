@@ -12,7 +12,7 @@ const LineChart = () => {
   const [fieldData, setFieldData] = useState([]);
   const [attributes, setAttributes] = useState({
     curveStyle: "cardinal",
-    colorScheme: "nivo",
+    colorScheme: "set1",
     enableArea: false,
     enablePoints: false,
     enableGridX: true,
@@ -171,15 +171,11 @@ const LineChart = () => {
                 case "png":
                   generatePNG();
                   break;
-                case "pdf":
-                  generateSVG();
-                  break;
               }
             }}
           >
             <option value="svg">SVG</option>
             <option value="png">PNG</option>
-            <option value="pdf">PDF</option>
           </Select>
         </HStack>
       </HStack>

@@ -11,7 +11,7 @@ const RadialBarChart = () => {
   const [fieldNames, setFieldNames] = useState([""]);
   const [fieldData, setFieldData] = useState([]);
   const [attributes, setAttributes] = useState({
-    colorScheme: "nivo",
+    colorScheme: "set1",
     cornerRadius: 2,
     padAngle: 0,
     enableRadialGrid: true,
@@ -149,7 +149,7 @@ const RadialBarChart = () => {
     });
 
     setFinalData(data);
-    console.log(finalData)
+    console.log(finalData);
   };
 
   return (
@@ -175,15 +175,11 @@ const RadialBarChart = () => {
                 case "png":
                   generatePNG();
                   break;
-                case "pdf":
-                  generateSVG();
-                  break;
               }
             }}
           >
             <option value="svg">SVG</option>
             <option value="png">PNG</option>
-            <option value="pdf">PDF</option>
           </Select>
         </HStack>
       </HStack>

@@ -1,4 +1,3 @@
-import NextLink from "next/link";
 import Link from "next/link";
 import Sidebar from "../components/Sidebar";
 
@@ -14,9 +13,7 @@ const Navbar = () => {
         letterSpacing={2}
         textColor="white"
       >
-        <NextLink href="/" passHref>
-          <Link href="/">Vizzy</Link>
-        </NextLink>
+        <Link href="/">Vizzy</Link>
       </Text>
       <Sidebar />
     </Flex>
