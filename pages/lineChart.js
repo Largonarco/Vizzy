@@ -206,13 +206,6 @@ const LineChart = () => {
               yFormat=" >-.2f"
               axisTop={null}
               axisRight={null}
-              yScale={{
-                type: "linear",
-                min: "auto",
-                max: "auto",
-                stacked: false,
-                reverse: false,
-              }}
               axisBottom={
                 attributes.axisBottom
                   ? {
