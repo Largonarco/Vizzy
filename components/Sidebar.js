@@ -27,8 +27,9 @@ const Sidebar = () => {
         marginLeft="auto"
         variant="outline"
         onClick={onOpen}
+        textColor="white"
       >
-        <ArrowBackIcon />
+        <ArrowBackIcon /> Charts
       </Button>
       <Drawer
         isOpen={isOpen}
@@ -95,8 +96,50 @@ const Sidebar = () => {
                   backgroundColor: "hsla(38, 93%, 77%, 0.2)",
                 }}
               >
+                <NextLink href="/heatMap" passHref>
+                  <Link>Heat Map</Link>
+                </NextLink>
+              </Button>
+              <Button
+                colorScheme="orange"
+                variant="ghost"
+                _hover={{
+                  backgroundColor: "hsla(38, 93%, 77%, 0.2)",
+                }}
+                _active={{
+                  backgroundColor: "hsla(38, 93%, 77%, 0.2)",
+                }}
+              >
                 <NextLink href="/bumpChart" passHref>
                   <Link>Bump Chart</Link>
+                </NextLink>
+              </Button>
+              <Button
+                colorScheme="orange"
+                variant="ghost"
+                _hover={{
+                  backgroundColor: "hsla(38, 93%, 77%, 0.2)",
+                }}
+                _active={{
+                  backgroundColor: "hsla(38, 93%, 77%, 0.2)",
+                }}
+              >
+                <NextLink href="/scatterPlot" passHref>
+                  <Link>Scatter plot</Link>
+                </NextLink>
+              </Button>
+              <Button
+                colorScheme="orange"
+                variant="ghost"
+                _hover={{
+                  backgroundColor: "hsla(38, 93%, 77%, 0.2)",
+                }}
+                _active={{
+                  backgroundColor: "hsla(38, 93%, 77%, 0.2)",
+                }}
+              >
+                <NextLink href="/radialBarChart" passHref>
+                  <Link>Radial Bar Chart</Link>
                 </NextLink>
               </Button>
             </VStack>

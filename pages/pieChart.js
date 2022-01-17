@@ -49,6 +49,27 @@ const PieChart = () => {
     },
   ]);
 
+  const setAttribute = (attr, e) => {
+    if (e.target) {
+      setAttributes({
+        ...attributes,
+        [attr]: e.target.value,
+      });
+    } else {
+      setAttributes({
+        ...attributes,
+        [attr]: e,
+      });
+    }
+  };
+
+  const setBooleanAttribute = (attr) => {
+    setAttributes({
+      ...attributes,
+      [attr]: !attributes[attr],
+    });
+  };
+
   const submitData = () => {
     let tInputs = tableInputs;
     tInputs = tInputs.map((input) => {
@@ -174,7 +195,8 @@ const PieChart = () => {
       <BarChartControls
         attributes={attributes}
         tableInputs={tableInputs}
-        setAttributes={setAttributes}
+        setAttribute={setAttribute}
+        setBooleanAttribute={setBooleanAttribute}
         setTableInputs={setTableInputs}
         submitData={submitData}
       />

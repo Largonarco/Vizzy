@@ -30,10 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/lineChart": [
+    "/heatMap": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/lineChart.js"
+      "static/chunks/pages/heatMap.js"
     ]
   },
   "ampFirstPages": []

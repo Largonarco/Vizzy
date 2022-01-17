@@ -24,7 +24,8 @@ import {
 const BarChartControls = ({
   attributes,
   tableInputs,
-  setAttributes,
+  setAttribute,
+  setBooleanAttribute,
   setTableInputs,
   submitData,
 }) => {
@@ -136,12 +137,7 @@ const BarChartControls = ({
           <Select
             color="grey"
             mb="1em"
-            onChange={(e) => {
-              setAttributes({
-                ...attributes,
-                colorScheme: e.target.value,
-              });
-            }}
+            onChange={(e) => setAttribute("colorScheme", e)}
           >
             <option value="nivo">Basic</option>
             <option value="accent">Accent</option>
@@ -157,12 +153,7 @@ const BarChartControls = ({
             max={0.9}
             step={0.05}
             aria-label="inner-radius"
-            onChange={(val) => {
-              setAttributes({
-                ...attributes,
-                innerRadius: val,
-              });
-            }}
+            onChange={(e) => setAttribute("innerRadius", e)}
           >
             <SliderTrack>
               <SliderFilledTrack />
@@ -177,12 +168,7 @@ const BarChartControls = ({
             max={6}
             step={1}
             aria-label="pad-angle"
-            onChange={(val) => {
-              setAttributes({
-                ...attributes,
-                padAngle: val,
-              });
-            }}
+            onChange={(e) => setAttribute("padAngle", e)}
           >
             <SliderTrack>
               <SliderFilledTrack />
@@ -207,12 +193,7 @@ const BarChartControls = ({
             <Checkbox
               colorScheme="green"
               size="lg"
-              onChange={() => {
-                setAttributes({
-                  ...attributes,
-                  arcLabels: !attributes.arcLabels,
-                });
-              }}
+              onChange={() => setBooleanAttribute("arcLabels")}
               defaultIsChecked
             >
               Show Arc labels
@@ -220,12 +201,7 @@ const BarChartControls = ({
             <Checkbox
               colorScheme="green"
               size="lg"
-              onChange={() => {
-                setAttributes({
-                  ...attributes,
-                  arcLinkLabels: !attributes.arcLinkLabels,
-                });
-              }}
+              onChange={() => setBooleanAttribute("arcLinkLabels")}
               defaultIsChecked
             >
               Show Arc link labels

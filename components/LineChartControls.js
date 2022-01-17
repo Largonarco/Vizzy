@@ -86,8 +86,8 @@ const LineChartControls = ({
                                   <Input
                                     size="sm"
                                     onChange={(e) => {
-                                      setTableInputs((tableInputs) =>
-                                        tableInputs.map((input) =>
+                                      setFieldData((fieldData) =>
+                                        fieldData.map((input) =>
                                           input.field === index &&
                                           input.row === el.row
                                             ? { ...input, x: e.target.value }
@@ -101,14 +101,14 @@ const LineChartControls = ({
                                   <Input
                                     size="sm"
                                     onChange={(e) => {
-                                      setTableInputs((tableInputs) =>
-                                        tableInputs.map((input) =>
-                                          input.field === index &&
-                                          input.row === el.row
-                                            ? { ...input, y: e.target.value }
-                                            : { ...input }
-                                        )
-                                      );
+                                      setFieldData((fieldData) =>
+                                      fieldData.map((input) =>
+                                        input.field === index &&
+                                        input.row === el.row
+                                          ? { ...input, y: e.target.value }
+                                          : { ...input }
+                                      )
+                                    );
                                     }}
                                   />
                                 </Td>

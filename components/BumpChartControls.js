@@ -202,24 +202,6 @@ const BumpChartControls = ({
             <option value="accent">Accent</option>
             <option value="dark2">Dark</option>
           </Select>
-          <FormLabel as="label">Line</FormLabel>
-          <HStack mb="1em">
-            <Text fontSize="1em">Width : </Text>
-            <NumberInput
-              size="sm"
-              maxW={20}
-              defaultValue={2}
-              min={1}
-              max={15}
-              onChange={(val) => setAttribute("lineWidth", val)}
-            >
-              <NumberInputField />
-              <NumberInputStepper>
-                <NumberIncrementStepper />
-                <NumberDecrementStepper />
-              </NumberInputStepper>
-            </NumberInput>
-          </HStack>
           <FormLabel as="label" mb="1em">
             Padding
           </FormLabel>

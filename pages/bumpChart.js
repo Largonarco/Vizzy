@@ -12,7 +12,7 @@ const BumpChart = () => {
   const [fieldData, setFieldData] = useState([]);
   const [attributes, setAttributes] = useState({
     colorScheme: "spectral",
-    lineWidth: 2,
+    lineWidth: 4,
     pointSize: 6,
     pointBorder: 2,
     xPadding: 0.5,
@@ -212,7 +212,7 @@ const BumpChart = () => {
               data={finalData}
               colors={{ scheme: attributes.colorScheme }}
               theme={{ textColor: "#ffffff" }}
-              lineWidth={attributes.lineWidth}
+              lineWidth={4}
               xOuterPadding={attributes.xPadding}
               yOuterPadding={attributes.yPadding}
               activeLineWidth={6}
