@@ -30,7 +30,6 @@ import {
   NumberIncrementStepper,
   NumberDecrementStepper,
 } from "@chakra-ui/react";
-import { AddIcon } from "@chakra-ui/icons";
 
 const BarChartControls = ({
   groups,
@@ -168,7 +167,7 @@ const BarChartControls = ({
               setGroups([...groups, []]);
             }}
           >
-            <AddIcon w="0.75em" h="0.75em" />
+            &#43;
           </Button>
           <Button
             my="1em"

@@ -12,7 +12,6 @@ import {
   DrawerContent,
   DrawerCloseButton,
 } from "@chakra-ui/react";
-import { ArrowBackIcon } from "@chakra-ui/icons";
 
 const Sidebar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -28,7 +27,7 @@ const Sidebar = () => {
         onClick={onOpen}
         textColor="white"
       >
-        <ArrowBackIcon /> Charts
+        &#8612; Charts
       </Button>
       <Drawer
         isOpen={isOpen}

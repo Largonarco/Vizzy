@@ -31,7 +31,6 @@ import {
   SliderFilledTrack,
   SliderThumb,
 } from "@chakra-ui/react";
-import { AddIcon } from "@chakra-ui/icons";
 
 const RadialBarChartControls = ({
   attributes,
@@ -171,7 +170,7 @@ const RadialBarChartControls = ({
               setFieldNames([...fieldNames, ""]);
             }}
           >
-            <AddIcon w="0.75em" h="0.75em" />
+            &#43;
           </Button>
           <Button
             my="1em"
