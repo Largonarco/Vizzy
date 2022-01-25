@@ -27,7 +27,7 @@ const Sidebar = () => {
         onClick={onOpen}
         textColor="white"
       >
-        &#8612; Charts
+        Charts
       </Button>
       <Drawer
         isOpen={isOpen}
